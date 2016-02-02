@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8564722A-E41B-8EE5-99BD-01CB251823CE}") = "Leap Motion Test Area", "Assembly-CSharp.csproj", "{611BCE4C-8DBF-74D6-7041-EA441D4E8ABE}"
+EndProject
+Project("{8564722A-E41B-8EE5-99BD-01CB251823CE}") = "Leap Motion Test Area", "Assembly-CSharp-Editor.csproj", "{161FDCA9-0097-CD8F-8AEE-15E9562CA8B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611BCE4C-8DBF-74D6-7041-EA441D4E8ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611BCE4C-8DBF-74D6-7041-EA441D4E8ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611BCE4C-8DBF-74D6-7041-EA441D4E8ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611BCE4C-8DBF-74D6-7041-EA441D4E8ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161FDCA9-0097-CD8F-8AEE-15E9562CA8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161FDCA9-0097-CD8F-8AEE-15E9562CA8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161FDCA9-0097-CD8F-8AEE-15E9562CA8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161FDCA9-0097-CD8F-8AEE-15E9562CA8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
