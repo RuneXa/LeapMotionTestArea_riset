@@ -24,6 +24,13 @@ public class SoundOnHit : MonoBehaviour {
 			sourceMgr.PlayOneShot(audioToPlay);
 		}
 	}
+
+	void OnMouseOver(){
+		//Debug.Log (this.gameObject.name);
+		if (Input.GetMouseButtonDown (0)) {
+			sourceMgr.PlayOneShot(audioToPlay);
+		}
+	}
 	
 
 }
