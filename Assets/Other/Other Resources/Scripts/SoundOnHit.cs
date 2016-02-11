@@ -13,14 +13,17 @@ public class SoundOnHit : MonoBehaviour {
 	AudioSource sourceMgr; //AudioSource Component untuk handle suara
 
 	[Header("Triggered By")]
-	[SerializeField] GameObject obj; //Object yang ngebuat suara di object ini keluar, Syarat : Object tersebut punya collider + RigidBody
+	[SerializeField] GameObject obj; //Object yang ngebuat suara di object ini keluar
 
 	void Start () {
 		sourceMgr = this.GetComponent<AudioSource> ();
+
+		//WorkAround buat pemukul untuk sementara
+		//obj = this.transform.parent.parent.GetComponent<HandControllerMediator>().getToolObj();
 	}
 
 	void OnCollisionEnter(Collision other){
-		if (other.gameObject.name.CompareTo (obj.name) == 0) {
+		if (other.gameObject.CompareTag("Pemukul_")) {
 			sourceMgr.PlayOneShot(audioToPlay);
 		}
 	}

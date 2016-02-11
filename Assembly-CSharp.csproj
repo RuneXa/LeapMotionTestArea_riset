@@ -172,7 +172,9 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\Other\Other Resources\Scripts\HandControllerMediator.cs" />
      <Compile Include="Assets\Other\Other Resources\Scripts\SoundOnHit.cs" />
+     <Compile Include="Assets\Other\Other Resources\Scripts\ToolPemukul.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
